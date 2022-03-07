@@ -42,3 +42,12 @@
 {
     console.log(num1+num2);
 })(10,93);
+
+
+(function(start,end)
+{
+    for(let i=start;i<=end;i++)
+    {
+        console.log(i);
+    }
+})(1,10);
