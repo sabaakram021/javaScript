@@ -9,17 +9,33 @@
 //     i++;
 // }
 
-let num = 56;
-let flag = 0;
-for(i=2 ;i*i< num ;i++){
-    if(num % i == 0){
-        flag=1;
-        break;
-    }
+// let num = 89;
+// let flag = 0;
+// for(i=2 ;i*i<=num ;i++){
+//     if(num % i == 0){
+//         flag=1;
+//         break;
+//     }
+// }
+// if(flag==1){
+//     console.log(num + " is not a prime number");
+// }
+// else{
+//     console.log(num + " is a prime number")
+// }
+
+/****************************** Function  *********************/
+// function sayHello(){
+//     console.log("Hello from function");
+// }
+// sayHello();
+
+
+// ***********************Function with parameter *****************
+
+let a = function sum(num1, num2) {
+    let addtion = num1 + num2;
+    return addtion;
 }
-if(flag==1){
-    console.log(num + " is not a prime number");
-}
-else{
-    console.log(num + " is a prime number")
-}
+console.log(a);
+console.log(a(10, 80));
