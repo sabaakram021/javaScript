@@ -17,5 +17,5 @@
 // })(10,10);
 
 (function(num1,num2){
-    console.log(num1 / num2);
+    console.log(num1 * num2);
 })(7,8);
