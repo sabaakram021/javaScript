@@ -14,3 +14,19 @@ console.log(arr);
 
 arr.push(99);
 console.log(arr);
+
+// 2) POP 
+
+arr.pop();
+console.log(arr);
+
+// 3) SHIFT
+
+arr.shift();
+console.log(arr);
+
+
+// 4) UNSHIFT
+
+arr.unshift("Mai aya first me");
+console.log("After unshift",arr);
