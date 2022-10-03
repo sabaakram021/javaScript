@@ -16,6 +16,15 @@
 //     console.log(num1/num2);
 // })(10,10);
 
-(function(num1,num2){
-    console.log(num1 * num2);
-})(7,8);
+// (function(num1,num2){
+//     console.log(num1 * num2);
+// })(7,8);
+
+// function a(){
+//     console.log("function a in invoked");
+// }
+// a();
+function sum(num1,num2){
+    return num1+num2;
+}
+console.log(sum(2,3));

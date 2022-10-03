@@ -1,5 +1,5 @@
-let str = "   I am a string";
-console.log(str);
+// let str = "   I am a string";
+// console.log(str);
 /********************* Length **********************/
 // console.log(str.length);
 
@@ -24,5 +24,22 @@ console.log(str);
 // let str_arr = str.split(" ");
 // console.log(str_arr);
 
-let trim_str = str.trim();
-console.log(trim_str);
+// let trim_str = str.trim();
+// console.log(trim_str);
+
+
+// console.log("saba akram");
+// let str = "I am busy";
+// let newStr=str.replace("am","was");
+// console.log(newStr);
+// console.log(str);
+
+let obj ={
+    'name' : "saba akram",
+    'age' : 24,
+    address : "ranchi"
+}
+// console.log(obj);
+// for(let ele :){
+//     console.log(obj.ele);
+// }

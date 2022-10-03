@@ -5,7 +5,7 @@
 
 /******************* Arrays Method **************** */
 
-let arr=[1,2,3,3,"Hi all",true,3.5,'a'];
+// let arr=[1,2,3,3,"Hi all",true,3.5,'a'];
 // console.log(arr);
 
 // arr[2]='change hua' ;
@@ -31,4 +31,7 @@ let arr=[1,2,3,3,"Hi all",true,3.5,'a'];
 // arr.unshift("Mai aya first me");
 // console.log("After unshift",arr);
 
-console.log(arr.length);
+// console.log(arr.length);
+
+let arr=[1,2,'saba',3.5];
+console.log(arr);

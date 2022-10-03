@@ -30,4 +30,11 @@
 // }
 // sayHello();
 
+// console.log("hi sir");
+// let num;
+// num=10;
+// console.log(num);
 
+for(let i=10;i>=0;i--){
+    console.log(i);
+}
